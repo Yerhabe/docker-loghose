@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --recursive",
     "watch": "mocha --watch --recursive",
-    "start": "./loghose.js",
+    "start": "./loghose.js --json --nocontext | bunyan",
     "standard": "standard"
   },
   "bin": "loghose.js",

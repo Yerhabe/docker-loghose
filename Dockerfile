@@ -8,6 +8,7 @@ MAINTAINER Matteo Collina <hello@matteocollina.com>
 WORKDIR /src
 ADD . .
 
+RUN npm install -g bunyan
 RUN npm install --production
 
 CMD ["npm", "start"]
